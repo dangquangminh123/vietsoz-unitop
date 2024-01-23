@@ -1,0 +1,44 @@
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+.f-40 {
+    font-size: 40px;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.container-fuild {
+    width: 960px;
+    margin: 0px auto;
+}
+
