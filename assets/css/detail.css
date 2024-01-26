@@ -194,7 +194,7 @@ form#search-box::placeholder {
 }
 
 .footer-body ul.related-post li .title-related {
-    
+    text-align: justify;
     display: block;
     padding-right: 44px;
     font-weight: bold;
@@ -203,6 +203,7 @@ form#search-box::placeholder {
 }
 
 .footer-body ul.related-post li .title-related .des-related {
+    text-align: justify;
     text-decoration: none;
     color: #646464;
 }
@@ -272,6 +273,7 @@ form#search-box::placeholder {
 
 .sidebar .sidebar-content ul.read-most li .item-read-content a.desc-reference {
     font-weight: 500;
+    text-align: justify;
     display: block;
     color: #000000;
     transition: all 0.5s ease;
@@ -307,6 +309,11 @@ form#search-box::placeholder {
     list-style: none;
 }
 
+#wp-footer .category-us .footer-body p {
+    text-align: justify;
+}
+
+
 .category-us .footer-body ul.list-cate li {
     position: relative;
 }
@@ -326,6 +333,7 @@ form#search-box::placeholder {
 .category-us .footer-body ul.list-cate li a.cate-items {
     text-decoration: none;
     display: inline-block;
+    text-align: justify;
     font-weight: 600;
     padding: 5px 0px;
     color: #e9f4ed;
@@ -347,6 +355,7 @@ form#search-box::placeholder {
 
 #wp-footer .new-popular .footer-body ul.list-popular-new{
     display: block;
+    text-align: justify;
     padding-left: 0px;
     margin-left: 23px;
     list-style: none;
@@ -371,6 +380,7 @@ form#search-box::placeholder {
 .new-popular .footer-body ul.list-popular-new li a.list-items {
     text-decoration: none;
     display: inline-block;
+    text-align: justify;
     font-weight: 600;
     padding: 5px 0px;
     color: #e9f4ed;

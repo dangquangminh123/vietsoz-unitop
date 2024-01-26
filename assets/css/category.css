@@ -156,9 +156,8 @@ form#search-box::placeholder {
 }
 
 .wp-content .content .content-right .title-new-hot {
-    /* padding-right: 96px; */
+    text-align: justify;
     cursor: pointer;
-    /* margin-top: 20px; */
 }
 
 .wp-content .content .content-right:hover .title-new-hot {
@@ -168,6 +167,7 @@ form#search-box::placeholder {
 .wp-content .content .content-right .des-new-hot {
     line-height: 1.4;
     font-size: 15px;
+    text-align: justify;
     cursor: pointer;
 }
 
@@ -202,39 +202,41 @@ form#search-box::placeholder {
     /* margin-bottom: 10px; */
     max-width: 100%;
 }
-.content .post-content-left ul.post-list-content li a.item-post-content {
+.content .post-content-left ul.post-list-content li .item-post-content {
     text-decoration: none;
     flex-basis: 35%;
     padding: 5px 5px;
 }
 
-.content .post-content-left ul.post-list-content li a.item-post-descriptions {
+.content .post-content-left ul.post-list-content li .item-post-descriptions {
     flex-basis: 65%;
     text-decoration: none;
 }
 
-.content .post-content-left ul.post-list-content li a.item-post-content .post-images {
+.content .post-content-left ul.post-list-content li .item-post-content a.post-images {
     max-width: 100%;
     overflow: hidden;
     display: block;
 }
 
-.content .post-content-left ul.post-list-content li a.item-post-content .post-images img {
+.content .post-content-left ul.post-list-content li .item-post-content a.post-images img {
     display: block;
     width: 100%;
     object-fit: cover;
     transition: all 0.7s ease;
 }
 
-.content .post-content-left ul.post-list-content li a.item-post-content .post-images:hover img {
+.content .post-content-left ul.post-list-content li .item-post-content .post-images:hover img {
     transform: scale(1.2);
 }
 
-.content .post-content-left ul.post-list-content li a.item-post-descriptions .post-description {
+.content .post-content-left ul.post-list-content li .item-post-descriptions a.post-description {
     color: #000000;
+    text-align: justify;
+    text-decoration: none;
 }
 
-.content .post-content-left ul.post-list-content li a.item-post-descriptions:hover .post-description{
+.content .post-content-left ul.post-list-content li .item-post-descriptions:hover a.post-description{
     color: #a9a9a9;
 }
 
@@ -244,39 +246,41 @@ form#search-box::placeholder {
     /* margin-bottom: 10px; */
     max-width: 100%;
 }
-.content .post-content-right ul.post-list-content li a.item-post-content {
+.content .post-content-right ul.post-list-content li .item-post-content {
     text-decoration: none;
     flex-basis: 35%;
     padding: 5px 5px;
 }
 
-.content .post-content-right ul.post-list-content li a.item-post-descriptions {
+.content .post-content-right ul.post-list-content li .item-post-descriptions {
     flex-basis: 65%;
     text-decoration: none;
 }
 
-.content .post-content-right ul.post-list-content li a.item-post-content .post-images {
+.content .post-content-right ul.post-list-content li .item-post-content a.post-images {
     max-width: 100%;
     overflow: hidden;
     display: block;
 }
 
-.content .post-content-right ul.post-list-content li a.item-post-content .post-images img {
+.content .post-content-right ul.post-list-content li .item-post-content a.post-images img {
     display: block;
     width: 100%;
     object-fit: cover;
     transition: all 0.7s ease;
 }
 
-.content .post-content-right ul.post-list-content li a.item-post-content .post-images:hover img {
+.content .post-content-right ul.post-list-content li .item-post-content a.post-images:hover img {
     transform: scale(1.2);
 }
 
-.content .post-content-right ul.post-list-content li a.item-post-descriptions .post-description {
+.content .post-content-right ul.post-list-content li .item-post-descriptions a.post-description {
     color: #000000;
+    text-align: justify;
+    text-decoration: none;
 }
 
-.content .post-content-right ul.post-list-content li a.item-post-descriptions:hover .post-description{
+.content .post-content-right ul.post-list-content li .item-post-descriptions:hover a.post-description{
     color: #a9a9a9;
 }
 /* END POST CONTENT các bài viết ở bên dưới */
@@ -298,18 +302,18 @@ form#search-box::placeholder {
     padding: 10px 0px 10px 0px;
 }
 
-.attention-note ul.list-new-attention li a.image-attention {
+.attention-note ul.list-new-attention li .image-attention {
     /* overflow: hidden; */
     padding-right: 7px;
 }
 
-.attention-note ul.list-new-attention li a.image-attention .images-category {
+.attention-note ul.list-new-attention li .image-attention a.images-category {
     max-width: 100%;
     overflow: hidden;
     display: block;
 }
 
-.attention-note ul.list-new-attention li a.image-attention .images-category img {
+.attention-note ul.list-new-attention li .image-attention a.images-category img {
     /* padding-top: 8px; */
     width: 253px;
     height: 141px;
@@ -317,7 +321,7 @@ form#search-box::placeholder {
     transition: all 0.6s ease-in-out;
 }
 
-.attention-note ul.list-new-attention li a.image-attention .images-category:hover img {
+.attention-note ul.list-new-attention li .image-attention a.images-category:hover img {
     transform: scale(1.2);
 }
 
@@ -327,6 +331,7 @@ form#search-box::placeholder {
 
 .attention-note ul.list-new-attention li .details-news a.news-d-title {
     text-decoration: none;
+    text-align: justify;
     color: #000000;
     font-weight: bold;
     font-size: 19px;
@@ -348,6 +353,7 @@ form#search-box::placeholder {
 
 .attention-note ul.list-new-attention li .details-news .news-published .salon-date {
     padding-left: 7px;
+    text-align: justify;
 }
 
 .attention-note ul.list-new-attention li .details-news .news-published:hover .salon-date {
@@ -356,6 +362,7 @@ form#search-box::placeholder {
 
 .attention-note ul.list-new-attention li .details-news .news-details-text{
     color: #464646;
+    text-align: justify;
     line-height: 1.0;
     font-size: 14px;
 }
@@ -494,6 +501,10 @@ form#search-box::placeholder {
     flex-basis: 20%;
 } 
 
+#wp-footer .category-us .footer-body p {
+    text-align: justify;
+}
+
 #wp-footer .category-us .footer-body ul.list-cate{
     display: block;
     padding-left: 0px;
@@ -521,6 +532,7 @@ form#search-box::placeholder {
     text-decoration: none;
     display: inline-block;
     font-weight: 600;
+    text-align: justify;
     padding: 5px 0px;
     color: #e9f4ed;
     transition: all 0.3s ease-in-out;
@@ -564,6 +576,7 @@ form#search-box::placeholder {
 
 .new-popular .footer-body ul.list-popular-new li a.list-items {
     text-decoration: none;
+    text-align: justify;
     display: inline-block;
     font-weight: 600;
     padding: 5px 0px;

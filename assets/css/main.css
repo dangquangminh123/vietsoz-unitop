@@ -131,6 +131,7 @@ form#search-box::placeholder {
     color: #000000;
     font-size: 24px;
     transition: all 0.4s ease;
+    text-align: justify;
     cursor: pointer;
 }
 
@@ -142,11 +143,9 @@ form#search-box::placeholder {
 .wp-content .content .content-left .news-hot .des-new-hot {
     line-height: 1.4;
     font-size: 15px;
+    text-align: justify;
 }
 
-/* .wp-content .content .content-left .news-hot .des-new-hot:hover {
-    color: #01a050;
-} */
 
 .wp-content .content .content-right {
     flex-basis: 40%;
@@ -196,6 +195,7 @@ form#search-box::placeholder {
 ul.news-reference li .item-news-reference a.desc-reference {
     text-decoration: none;
     display: block;
+    text-align: justify;
     font-weight: 600;
     color: #000000;
     font-size: 14px;
@@ -326,6 +326,7 @@ ul.news-reference li .item-news-reference:hover a.desc-reference{
 
 #event-post .content-body .content-right ul.news-reference li .item-contet-reference a.desc-reference {
     text-decoration: none;
+    text-align: justify;
     display: block;
     padding-left: 10px;
     font-weight: 600;
@@ -401,6 +402,7 @@ ul.news-reference li .item-news-reference:hover a.desc-reference{
 .sidebar .sidebar-content ul.read-most li .item-read-content a.desc-reference {
     text-decoration: none;
     font-weight: 500;
+    text-align: justify;
     display: block;
     color: #000000;
     transition: all 0.5s ease;
@@ -424,6 +426,7 @@ ul.news-reference li .item-news-reference:hover a.desc-reference{
     padding-right: 52px;
 }
 
+
 #wp-footer .category-us {
     flex-basis: 20%;
 } 
@@ -434,6 +437,10 @@ ul.news-reference li .item-news-reference:hover a.desc-reference{
     margin-left: 23px;
     list-style: none;
 }
+#wp-footer .category-us .footer-body p {
+    text-align: justify;
+}
+
 
 .category-us .footer-body ul.list-cate li {
     position: relative;
@@ -454,6 +461,7 @@ ul.news-reference li .item-news-reference:hover a.desc-reference{
 .category-us .footer-body ul.list-cate li a.cate-items {
     text-decoration: none;
     display: inline-block;
+    text-align: justify;
     font-weight: 600;
     padding: 5px 0px;
     color: #e9f4ed;
@@ -498,6 +506,7 @@ ul.news-reference li .item-news-reference:hover a.desc-reference{
 
 .new-popular .footer-body ul.list-popular-new li a.list-items {
     text-decoration: none;
+    text-align: justify;
     display: inline-block;
     font-weight: 600;
     padding: 5px 0px;
