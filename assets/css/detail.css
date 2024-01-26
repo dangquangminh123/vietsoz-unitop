@@ -329,6 +329,11 @@ form#search-box::placeholder {
     font-weight: 600;
     padding: 5px 0px;
     color: #e9f4ed;
+    transition: all 0.3s ease-in-out;
+}
+
+.category-us .footer-body ul.list-cate li:hover a.cate-items {
+    color: #f1c40f;
 }
 
 .category-us .footer-body ul.list-cateli:last-child a.cate-items {
@@ -373,7 +378,7 @@ form#search-box::placeholder {
 }
 
 .new-popular .footer-body ul.list-popular-new li:hover a.list-items {
-    color: #060707;
+    color: #f1c40f;
 }
 
 .new-popular .footer-body ul.list-popular-new li:last-child a.list-items {

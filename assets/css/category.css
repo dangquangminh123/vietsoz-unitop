@@ -472,6 +472,7 @@ form#search-box::placeholder {
 
 #wp-footer .about-us {
     flex-basis: 30%;
+    padding-right: 52px;
 }
 
 #wp-footer .category-us {
@@ -507,6 +508,11 @@ form#search-box::placeholder {
     font-weight: 600;
     padding: 5px 0px;
     color: #e9f4ed;
+    transition: all 0.3s ease-in-out;
+}
+
+.category-us .footer-body ul.list-cate li:hover a.cate-items {
+    color: #f1c40f;
 }
 
 .category-us .footer-body ul.list-cateli:last-child a.cate-items {
@@ -515,6 +521,7 @@ form#search-box::placeholder {
 
 #wp-footer .new-popular {
     flex: 30%;
+    padding-left: 6px;
 }
 
 #wp-footer .new-popular .footer-body ul.list-popular-new{
@@ -546,6 +553,11 @@ form#search-box::placeholder {
     font-weight: 600;
     padding: 5px 0px;
     color: #e9f4ed;
+    transition: all 0.3s ease-in-out;
+}
+
+.new-popular .footer-body ul.list-popular-new li:hover a.list-items {
+    color: #f1c40f;
 }
 
 .new-popular .footer-body ul.list-popular-new li:last-child a.list-items {
