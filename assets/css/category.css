@@ -157,10 +157,10 @@ form#search-box::placeholder {
 
 .wp-content .content .content-right .title-new-hot {
     text-align: justify;
-    cursor: pointer;
+
 }
 
-.wp-content .content .content-right:hover .title-new-hot {
+.wp-content .content .content-right .title-new-hot:hover {
     color: #01a050;
 }
 
@@ -168,11 +168,11 @@ form#search-box::placeholder {
     line-height: 1.4;
     font-size: 15px;
     text-align: justify;
-    cursor: pointer;
+
 }
 
-.wp-content .content .content-right:hover .des-new-hot {
-    color: #01a050;
+.wp-content .content .content-right .des-new-hot:hover {
+    color: #1abc9c;
 }
 
 /* POST CONTENT các bài viết nhỏ bên dưới */
@@ -237,7 +237,7 @@ form#search-box::placeholder {
 }
 
 .content .post-content-left ul.post-list-content li .item-post-descriptions:hover a.post-description{
-    color: #a9a9a9;
+    color: #34495e;
 }
 
 /* Right */
@@ -281,14 +281,14 @@ form#search-box::placeholder {
 }
 
 .content .post-content-right ul.post-list-content li .item-post-descriptions:hover a.post-description{
-    color: #a9a9a9;
+    color: #34495e;
 }
 /* END POST CONTENT các bài viết ở bên dưới */
 
 /* Attention news */
 .wp-content .content .attention-news {
     position: absolute;
-    padding-top: 8px;
+    padding-top: 25px;
     top: 29%;
 }
 
@@ -578,7 +578,7 @@ form#search-box::placeholder {
     text-decoration: none;
     text-align: justify;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 500;
     padding: 5px 0px;
     color: #e9f4ed;
     transition: all 0.3s ease-in-out;
