@@ -298,6 +298,7 @@ form#search-box::placeholder {
     padding-right: 52px;
 }
 
+
 #wp-footer .category-us {
     flex-basis: 20%;
 } 
@@ -308,7 +309,6 @@ form#search-box::placeholder {
     margin-left: 23px;
     list-style: none;
 }
-
 #wp-footer .category-us .footer-body p {
     text-align: justify;
 }
@@ -355,7 +355,6 @@ form#search-box::placeholder {
 
 #wp-footer .new-popular .footer-body ul.list-popular-new{
     display: block;
-    text-align: justify;
     padding-left: 0px;
     margin-left: 23px;
     list-style: none;
@@ -379,8 +378,8 @@ form#search-box::placeholder {
 
 .new-popular .footer-body ul.list-popular-new li a.list-items {
     text-decoration: none;
-    display: inline-block;
     text-align: justify;
+    display: inline-block;
     font-weight: 500;
     padding: 5px 0px;
     color: #e9f4ed;
@@ -397,6 +396,7 @@ form#search-box::placeholder {
 
 #wp-footer .fanpage {
     flex-basis: 20%;
+    padding-left: 50px;
 }
 
 #wp-footer .title-footer-header {
