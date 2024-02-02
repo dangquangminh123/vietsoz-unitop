@@ -10,47 +10,51 @@
 #wrapper .header {
     padding-top: 14px;
     justify-content: space-between;
-}
-
-#wrapper .header img {
+    align-items: center;
+  }
+  
+  #wrapper .header img {
     width: auto;
+    padding: 7px 0px;
     height: 50px;
-}
-
-#wrapper .header .navbar-header {
+  }
+  
+  #wrapper .header .navbar-header {
     list-style: none;
     padding: 0px;
+    margin: 0px;
     display: flex;
-}
-
-#wrapper .header .navbar-header li {
+  }
+  
+  #wrapper .header .navbar-header li {
     /* padding: 10px 0px; */
-}
-
-#wrapper .header .navbar-header li a{
+  }
+  
+  #wrapper .header .navbar-header li a {
     text-decoration: none;
     padding: 7px 12px 7px 12px;
+    outline: none;
     /* padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 7px;
-    padding-bottom: 7px; */
+      padding-right: 12px;
+      padding-top: 7px;
+      padding-bottom: 7px; */
     font-weight: 500;
     font-size: 16px;
     color: #000000;
     transition: all 0.5s ease;
     cursor: pointer;
     display: block;
-}
-
-#wrapper .header .navbar-header li:hover a{
+  }
+  
+  #wrapper .header .navbar-header li:hover a {
     color: #01a050;
-}
-
-form#search-box {
+  }
+  
+  form#search-box {
     position: relative;
-}
-
-form#search-box input{
+  }
+  
+  form#search-box input {
     background: #ffffff;
     width: 248px;
     border-radius: 4px;
@@ -58,9 +62,9 @@ form#search-box input{
     outline: none;
     padding: 9px 42px 9px 15px;
     color: #909090;
-}
-
-form#search-box button {
+  }
+  
+  form#search-box button {
     position: absolute;
     right: 0px;
     top: 0px;
@@ -68,18 +72,18 @@ form#search-box button {
     border: none;
     color: #a9a9a9;
     padding: 9px 10px;
-}
-
-form#search-box::placeholder {
+  }
+  
+  form#search-box::placeholder {
     color: #bfbfbf;
     font-style: italic;
     font-size: 9px;
-}
-
-#wrapper .line-header {
+  }
+  
+  #wrapper .line-header {
     margin-top: 11px;
     border-bottom: 1px solid #dadada;
-}
+  }
 /* End Header */
 
 /* Breadcrums */
@@ -114,6 +118,7 @@ form#search-box::placeholder {
 /* End Breadcrums */
 .wp-content {
     margin-top: 30px;
+    padding: 0px 10px;
     display: flex;
     flex-basis: 100%;
     background-color: #ffffff;
